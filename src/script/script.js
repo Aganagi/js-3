@@ -36,6 +36,6 @@ for (c = 0; c < array2.length; c++) {
   } else if (array2[c] < min) {
     min = array2[c];
   }
-  const res = max - min;
-  console.log(`${res}`);
 }
+const res = max + min;
+console.log(`Deyerlerin toplamı: ${res}`);
