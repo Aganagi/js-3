@@ -1,4 +1,5 @@
 let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let temp = [...array]; //array-n içində olan dəyərləri kopyalıb temp eyni dəyərləri mənimsətmək üçün
 let c;
 for (c = 0; c < array.length; c++) {
   if (array[c] % 2 !== 0) {
@@ -25,9 +26,9 @@ for (c = 0; c < array1.length; c++) {
   }
 }
 
-let array2 = [1, 2, , 3, 4, 5, 6, 7, 8, 9];
-let min = array1[0];
-let max = array1[0];
+let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let min = array2[0];
+let max = array2[0];
 
 for (c = 0; c < array2.length; c++) {
   if (array2[c] > max) {
@@ -38,4 +39,3 @@ for (c = 0; c < array2.length; c++) {
   const res = max - min;
   console.log(`${res}`);
 }
-
